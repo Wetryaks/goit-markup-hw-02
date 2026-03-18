@@ -37,13 +37,21 @@ a {
   color: #2e2f42;
 }
 
+.logo-footer {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
 .logo-span {
   font-family: 'Raleway', sans-serif;
   color: #4d5ae5;
 }
 
 .mail {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -55,7 +63,6 @@ address {
 }
 
 .number {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -63,6 +70,14 @@ address {
 }
 
 .navigation {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.navigation-section {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -87,6 +102,12 @@ address {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   color: #fff;
+  cursor: pointer;
+}
+
+.service:hover,
+.service:focus {
+  background: #2e2f42;
 }
 
 .team {
@@ -111,7 +132,6 @@ address {
 }
 
 .team-member-position {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -128,7 +148,6 @@ address {
 }
 
 .feature-description {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -151,7 +170,6 @@ address {
   color: #2e2f42;
 }
 .portfolio-item-description {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -163,7 +181,6 @@ address {
 }
 
 .footer-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
