@@ -4,6 +4,8 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
+  background: #fff;
+  color: #fff;
 }
 ul {
   list-style-type: none;
@@ -51,15 +53,15 @@ a {
   color: #4d5ae5;
 }
 
+address {
+  font-style: normal;
+}
+
 .mail {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-address {
-  font-style: normal;
 }
 
 .number {
@@ -85,6 +87,11 @@ address {
   color: #2e2f42;
 }
 
+.navigation-section:hover,
+.navigation-section:focus {
+  color: #404bbf;
+}
+
 .main-title {
   font-weight: 700;
   font-size: 56px;
@@ -107,7 +114,7 @@ address {
 
 .service:hover,
 .service:focus {
-  background: #2e2f42;
+  background: #404bbf;
 }
 
 .team {
@@ -120,6 +127,15 @@ address {
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 
 .team-member-name {
